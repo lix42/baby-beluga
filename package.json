@@ -1,5 +1,5 @@
 {
-  "name": "deepdiff",
+  "name": "deepdelta",
   "version": "0.0.0",
   "description": "Compares multiple objects, output the common and the different pieces.",
   "main": "index.js",
