@@ -1,0 +1,14 @@
+{
+  "name": "deepdiff",
+  "version": "0.0.0",
+  "description": "Compares multiple objects, output the common and the different pieces.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [
+    "deep",
+    "diff"
+  ],
+  "author": "lix42@me.com",
+  "license": "MIT"
+}
