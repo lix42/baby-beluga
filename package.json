@@ -1,10 +1,19 @@
 {
   "name": "deepdelta",
   "version": "0.0.0",
-  "description": "Compares multiple objects, output the common and the different pieces.",
+  "description": "compare between JSON objects, calculate the difference.",
+  "author": "Li Xu <lix42@me.com>",
+  "license": "MIT",
+  "repository": "git@github.com:lix42/deepdelta.git",
   "main": "dist/index.js",
   "module": "dist/tsdx-basic.esm.js",
   "typings": "dist/index.d.ts",
+  "keywords": [
+    "json",
+    "compare",
+    "deep diff",
+    "delta"
+  ],
   "files": [
     "dist"
   ],
@@ -14,13 +23,18 @@
     "test": "tsdx test",
     "lint": "tsdx lint"
   },
+  "dependencies": {},
   "peerDependencies": {},
-  "keywords": [
-    "deep",
-    "diff"
-  ],
-  "author": "lix42@me.com",
-  "license": "MIT",
+  "devDependencies": {
+    "ts-jest": "^24.0.2",
+    "@types/jest": "^24.0.17",
+    "husky": "^3.0.4",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^1.11.1",
+    "tsdx": "^0.8.0",
+    "tslib": "^1.10.0",
+    "typescript": "^3.5.3"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
@@ -45,17 +59,5 @@
       "json",
       "node"
     ]
-  },
-  "devDependencies": {
-    "@types/jest": "^24.0.17",
-    "husky": "^3.0.4",
-    "prettier": "^1.18.2",
-    "pretty-quick": "^1.11.1",
-    "tsdx": "^0.8.0",
-    "tslib": "^1.10.0",
-    "typescript": "^3.5.3"
-  },
-  "dependencies": {
-    "ts-jest": "^24.0.2"
   }
 }
