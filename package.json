@@ -1,18 +1,18 @@
 {
-  "name": "deepdelta",
+  "name": "baby-beluga",
   "version": "0.0.0",
-  "description": "compare between JSON objects, calculate the difference.",
+  "description": "A set of function to operate on JSON objects, including actualEqual, deepDiff, deepMerge, etc.",
   "author": "Li Xu <lix42@me.com>",
   "license": "MIT",
-  "repository": "git@github.com:lix42/deepdelta.git",
+  "repository": "git@github.com:lix42/baby-beluga.git",
   "main": "dist/index.js",
-  "module": "dist/tsdx-basic.esm.js",
+  "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
   "keywords": [
     "json",
     "compare",
     "deep diff",
-    "delta"
+    "deep merge"
   ],
   "files": [
     "dist"
